@@ -35,8 +35,8 @@ Tools that make no promise pass straight through, adding about 1 ms.
 
 ## Results
 
-From the evaluation in the accompanying paper (*Declarations Are Not Enough:
-Measuring and Enforcing Effect Declarations for Agent Tools*):
+From the evaluation in the accompanying paper (*DSS-Guard: Measuring and Enforcing
+Tool Effect Annotations for LLM Agents*):
 
 - **Every observable violating call blocked and exactly restored, with no false
   blocks**, across 177 cases on the official MCP reference servers, a widely
