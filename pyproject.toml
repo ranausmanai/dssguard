@@ -1,0 +1,23 @@
+[project]
+name = "dssguard"
+version = "0.1.0"
+description = "Commit only the tool effects an MCP declaration permits."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Rana Muhammad Usman", email = "usmanashrafrana@gmail.com" }]
+keywords = ["mcp", "model-context-protocol", "ai-agents", "agent-safety", "security"]
+dependencies = ["mcp>=1.29,<2"]
+
+[project.urls]
+Homepage = "https://github.com/ranausmanai/dssguard"
+
+[project.scripts]
+dssguard = "dssguard.proxy:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["dssguard"]
